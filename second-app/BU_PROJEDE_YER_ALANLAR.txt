@@ -1,0 +1,3 @@
+*nesting component
+*property binding
+*event binding

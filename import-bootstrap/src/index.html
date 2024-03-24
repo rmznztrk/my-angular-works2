@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ImportBootstrap</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- option1: -->
+    <!-- <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+      /> -->
+
+    <!-- option2: -->
+    <!-- <link rel="stylesheet" href="./assets/bootstrap.css" /> -->
+  </head>
+
+  <body>
+    <app-root></app-root>
+
+    <!-- option1: -->
+    <!-- <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <!-- option2: -->
+    <!-- <script src="./assets/bootstrap.bundle.js"></script> -->
+  </body>
+</html>
+
+<!-- 
+  * ******IMPORT BOOTSTRAP
+
+  * ***OPTION 1(online)
+  * enter https://getbootstrap.com/ 
+  * Include via CDN(get the css and links here(index.html))
+  * js link ->  in the body(body alt etiketi ustune)
+  * css link -> in the head
+
+
+  * ***OPTION 2(manuel)
+  *enter https://getbootstrap.com/ 
+  *Include via CDN(copy the css url and the js url and these urls into the chrome search bar)
+  *get data and create js and css file in assets folder
+  *paste the codes these files
+  *finally, call(import) from page index.html
+
+
+  * ***OPTION 3(just add bootstrap css)
+  * add src/style.css the  -> @import url("./assets/bootstrap.css"); 
+
+  ***style dosyasinin index.html icine eklenmesi onerilir(one of the best-pratices)
+  
+
+  * ***OPTION 4(install bootstrap package(install npm))
+  * terminal > npm install bootstrap
+  * style.css > @import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+  * angular.json dosyasina gelip:
+    "styles": [
+      "src/styles.css",
+      "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    ],
+    "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.min.js"]
+  yaz
+ -->
